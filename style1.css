@@ -1,0 +1,85 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.frist-sec-color{
+    color: orange;
+}
+.frist{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;    
+}
+.second{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+}
+
+.flexible{
+    display: flex;
+}
+
+.flex-2{
+    display: flex;
+}
+.experince-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+#box{
+    border-image: linear-gradient(tomato,red);
+    border-left:7px solid ;
+    border-image-slice: 1;
+}
+
+#box-1{
+    border-image: linear-gradient(blue,cyan);
+    border-left:7px solid ;
+    border-image-slice: 1;
+}
+section{
+    margin-bottom: 110px;   
+}
+.frist-sec a{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.frist-sec{
+    width: 50%;
+    padding-left: 5%;
+}
+.frist-sec img{
+    width: 90%;
+}
+
+.exp-sec{
+    width: 50%;
+    padding-left: 5%;
+}
+.orange-color{
+    color: orange;
+}
+
+
+.experience-item{
+    width: 40%;
+}
+.third-flexible{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
